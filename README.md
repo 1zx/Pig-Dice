@@ -8,3 +8,8 @@
 
 ##Description
 This web application allows two players to play a game of Pig Dice.
+
+## Setup/Installation Requirements.
+* Use of HTML and CSS
+*  Making use of chrome so as to JavaSCript
+* The use of atom used as an editor
