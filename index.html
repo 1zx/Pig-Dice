@@ -7,6 +7,7 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.3.1.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+
   <script src="js/scripts.js"></script>
   <title>Pig Dice</title>
 </head>
@@ -14,11 +15,33 @@
 <body>
 
   <div class="container">
-    <div id="header">
-    <h1>Pig Dice Game</h1>
-      <p>This is a simple dice game where two players have the chance to roll the dice.</p>
-  </div>
     <div class="jumbotron">
 
+      <div id="header">
+        <h1>Pig Dice Game</h1>
+        <p>This is a simple dice game where two players have the chance to roll the dice.</p>
+      </div>
+
+      <p>LET'S PLAY:</p>
+      <div class="row">
+        <div class="col-xs-6">
+
+          <div class="panel panel-default">
+            <div class="panel-body">
+
+              <div class="form-group">
+                <h2>Player 1</h2>
+                <div class="score" id="score1">0</div>
+                <button id="player1-roll" class="btn btn-success">Roll</button>
+                <button id="player1-hold" class="btn btn-success">Hold</button>
+                <h2>Dice Roll: <span id="die-roll-1"></span></h2>
+                <p>Round Total: <span id="round-total-1"></span></p>
+                <p>Total Score: <span id="total-score-1"></span></p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
