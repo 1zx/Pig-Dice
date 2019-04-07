@@ -44,6 +44,9 @@ No known bugs.
 - JAVASCRIPT
 - JQUERY
 
+## Support and contact details
+
+For more info call +245706906082
 ##License
 
 MIT License
