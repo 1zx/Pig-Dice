@@ -20,14 +20,18 @@
       <div id="header">
         <h1>Pig Dice Game</h1>
         <p>This is a simple dice game where two players have the chance to roll the dice.</p>
-      </div>
 
-      <p>LET'S PLAY:</p>
+      </div>
+      <h3>LET'S PLAY:<h3>
+
+          <button id="start" type="button">Start</button>
+
       <div class="row">
         <div class="col-xs-6">
 
           <div class="panel panel-default">
             <div class="panel-body">
+
 
               <div class="form-group">
                 <h2>Player 1</h2>
@@ -42,6 +46,28 @@
             </div>
           </div>
         </div>
+
+
+        <div class="col-xs-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+
+              <div class="form-group">
+                <h2>Player 2</h2>
+                <div class="score" id="score2">0</div>
+                <button id="player2-roll" class="btn btn-success">Roll</button>
+                <button id="player2-hold" class="btn btn-success">Hold</button>
+                <h2>Dice Roll: <span id="die-roll-2"></span></h2>
+                <p>Round Total: <span id="round-total-2"></span></p>
+                <p>Total Score: <span id="total-score-2"></span></p>
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+
+</div>
+</div>
