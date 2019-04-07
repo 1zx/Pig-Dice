@@ -11,6 +11,8 @@
 -This web application allows two players to play a game of Pig Dice.
 
 ## Setup/Installation Requirements.
+ -git clone  (https://github.com/1zx/Pig-Dice.git)
+
 
 - Use of HTML and CSS
 - Making use of chrome so as to JavaSCript
