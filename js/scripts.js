@@ -71,13 +71,7 @@ $(document).ready(function() {
         }
       }
 
-      Player.prototype.newGame = function() {
-        this.roll = 0;
-        this.tempscore = 0;
-        this.totalscore = 0;
-        this.playerName = "";
-      }
-
+  
 
 $("button#player1-roll").click(function(event) {
   player1.roll = throwdice();
