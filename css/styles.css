@@ -62,6 +62,15 @@ h3 {
 }
 
 #start:hover {
-  background: #cccccc;
+  background-color: grey;
   border: 1px solid black;
+}
+
+.panel {
+  background-color: white;
+
+}
+
+button {
+  background-color: black;
 }
