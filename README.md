@@ -1,13 +1,13 @@
 # Pig Dice.
 
-#Charles Gateru.
+# Charles Gateru.
 
-###Its a game with two players.
+## Its a game with two players.
 
-##6.4.2019.
+## 6.4.2019.
 
-##Description
-This web application allows two players to play a game of Pig Dice.
+## Description
+-This web application allows two players to play a game of Pig Dice.
 
 ## Setup/Installation Requirements.
 * Use of HTML and CSS
