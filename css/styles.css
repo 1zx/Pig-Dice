@@ -45,7 +45,7 @@ p {
 }
 
 .jumbotron {
-  background-color: #A9A9A9;
+  background-color:rgb(255, 255, 255);
   background-image: url(../images/dice.jpg);
 }
 
